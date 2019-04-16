@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloCotroller {
-    @RequestMapping(value = "hello0")
+    @RequestMapping(value = "hello20")
     public String hello(){
         return "hello";
     }
